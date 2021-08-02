@@ -1,0 +1,81 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font: 50px sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bmw {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+}
+
+.bmw__squares {
+    width: 26vw;
+    height: 26vw;
+    margin: 7vw;
+    position: relative;
+    border-radius: 50%;
+    background: #00aceb;
+    overflow: hidden;
+}
+
+.bmw__square {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    margin: .2vw;
+}
+
+.bmw__square:nth-child(1) {
+    left: 0;
+    top: 0;
+    background: #00aceb;
+}
+
+.bmw__square:nth-child(2) {
+    right: 0;
+    top: 0;
+    background: #fff;
+}
+
+.bmw__square:nth-child(3) {
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}
+
+.bmw__square:nth-child(4) {
+    right: 0;
+    bottom: 0;
+    background: #00aceb;
+}
+
+.bmw__letters {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 50%;
+    /* background: #000; */
+}
+
+.bmw__letter {
+    position: absolute;
+}
+
+.bmw__letter:nth-child(1) {
+    left: 0;
+    transform: rotate(-45deg);
+}
+
+.bmw__letter:nth-child(3) {
+    right: 0;
+    transform: rotate(45deg);
+}
+
+@keyframes bmw {}
