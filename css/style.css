@@ -19,7 +19,7 @@ body {
     margin: 7vw;
     position: relative;
     border-radius: 50%;
-    background: #00aceb;
+    background: #000;
     overflow: hidden;
 }
 
@@ -31,26 +31,26 @@ body {
 }
 
 .bmw__square:nth-child(1) {
-    left: 0;
-    top: 0;
+    left: 50%;
+    top: 50%;
     background: #00aceb;
 }
 
 .bmw__square:nth-child(2) {
-    right: 0;
-    top: 0;
+    right: 50%;
+    top: 50%;
     background: #fff;
 }
 
 .bmw__square:nth-child(3) {
-    left: 0;
-    bottom: 0;
+    left: 50%;
+    bottom: 50%;
     background: #fff;
 }
 
 .bmw__square:nth-child(4) {
-    right: 0;
-    bottom: 0;
+    right: 50%;
+    bottom: 50%;
     background: #00aceb;
 }
 
@@ -61,20 +61,26 @@ body {
     right: 0;
     left: 0;
     border-radius: 50%;
-    /* background: #000; */
+    background: rgba(0, 0, 0, 0.144);
+    color: #fff;
 }
 
 .bmw__letter {
     position: absolute;
+    color: #000;
+    top: 20%;
+    left: 0;
+    right: 0;
 }
 
 .bmw__letter:nth-child(1) {
-    left: 0;
+    right: 0;
+    left: 15%;
     transform: rotate(-45deg);
 }
 
 .bmw__letter:nth-child(3) {
-    right: 0;
+    right: 15%;
     transform: rotate(45deg);
 }
 
